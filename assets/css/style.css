@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+body {
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 50%;
+}
+
+header {
+    height: 100px;
+    width: 100vw;
+}
+
+.dark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 50px;
+
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+}
+
+.light {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 50%;
+
+    background-color: #fff;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+main {
+    width: 100vw;
+    
+}
+
+.merchadising {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imgs/Air-Jordan-1-Retro-High-OG-Wmns-TWIST-Feminino\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+    width: 100%;
+    height: 300px;
+}
+
+.container {
+    width: 90%;
+    height: 100%;
+
+    margin: auto;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.conteudo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+
+    width: 100%;
+}
+
+.conteudo h1 {
+    font-size: 3rem;
+    font-weight: bold;
+
+    margin-bottom: 10px;
+}
+
+.conteudo p {
+    font-size: 1.7rem;
+
+    line-height: 2.5rem;
+}
+
+.jordans-container {
+    width: 90%;
+
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jordan-title {
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+    text-align: center;
+}
+
+.jordan-title h1 {
+    font-size: 3.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-bottom: 10px;
+}
+
+.jordan-title p {
+    font-size: 1.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.8rem;
+    color: rgb(104, 100, 100);
+}
+
+.jordan-box {
+    width: 100%;
+
+    margin-bottom: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.jordan {
+    height: 250px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #EBE9EA;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+
+    background-color: #000;
+}
+
+footer p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 55%;
+    }
+
+    .merchadising {
+        height: 400px;
+    }
+
+    
+
+    .jordan-box {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1024px ) {
+    html {
+        font-size: 60%;
+    }
+
+    .merchadising {
+        height: 400px;
+    }
+
+    .jordan-box {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1366px) {
+    html {
+        font-size: 62.5%;
+    }
+
+    .conteudo {
+        width: 50%;
+    }
+
+    .conteudo h1 {
+        font-size: 5rem;
+    }
+
+    .conteudo p {
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+
+    .merchadising {
+        height: 500px;
+    }
+
+    .jordan-box {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .container, .jordans-container {
+        width: 70%;
+    }
+
+
+}
