@@ -1,7 +1,25 @@
-# Desafio proposto pela comunidade codelândia disponibilizado no Figma
+# Desafio 2 (Codelândia - JordanShoes)
+Esse projeto foi desenvolvido em colaboração com a comunidade codelândia (um servidor do discord) , na qual são disponibilizados diversos layouts prontos no figma para serem desenvolvido do jeito que você quiser para fins de estudo.
 
-## Link Figma Abaixo
-https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=1973%3A39
+>## Link do discord : 
+https://discord.gg/wNCWTVuxyz
+>## Link do figma com todos desafios: 
+https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=0%3A1
+
+# Aprendizado:
+Ao desenvolver esse projeto, aprimorei meus conhecimentos sobre o conceito mobileFirst e avancei ainda mais sobre a utilização e conceitos do display grid junto ai flexbox.
+
+# Tecnologias Usadas:
+- HTML
+- CSS 
+- Git e Github
+
+>## Link para visualização do projeto
+https://codelandia-desafio1-blog.netlify.app/
 
 
-![Screenshot_1](https://user-images.githubusercontent.com/102332042/182515967-82c9517c-0797-4c4d-8b8f-10044dd4ddc7.png)
+# Imagem do projeto (DESKTOP).
+![preview](./assets/imgs/screen.png)
+
+
+
