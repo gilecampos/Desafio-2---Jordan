@@ -15,7 +15,7 @@ Ao desenvolver esse projeto, aprimorei meus conhecimentos sobre o conceito mobil
 - Git e Github
 
 >## Link para visualização do projeto
-https://codelandia-desafio1-blog.netlify.app/
+https://codelandia-desafio2-jordans.netlify.app/
 
 
 # Imagem do projeto (DESKTOP).
